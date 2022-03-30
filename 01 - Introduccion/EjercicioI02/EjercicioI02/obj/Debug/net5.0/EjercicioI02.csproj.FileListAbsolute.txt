@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\EjercicioI02.exe
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\EjercicioI02.deps.json
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\EjercicioI02.runtimeconfig.json
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\EjercicioI02.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\EjercicioI02.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\ref\EjercicioI02.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\bin\Debug\net5.0\EjercicioI02.pdb
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\ref\EjercicioI02.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.pdb
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI02\EjercicioI02\obj\Debug\net5.0\EjercicioI02.genruntimeconfig.cache

@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\Billetes\\Billetes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\Billetes\\Billetes.csproj",
+        "projectName": "Billetes",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\Billetes\\Billetes.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\Billetes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador.csproj",
+        "projectName": "EjercicioI02-Cotizador",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\EjercicioI02-Cotizador\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\Billetes\\Billetes.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\04 - Sobrecargas\\EjercicioI02-Cotizador\\Billetes\\Billetes.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

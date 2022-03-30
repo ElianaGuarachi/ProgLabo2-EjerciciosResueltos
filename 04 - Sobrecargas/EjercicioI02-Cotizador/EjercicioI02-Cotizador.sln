@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioI02-Cotizador", "EjercicioI02-Cotizador\EjercicioI02-Cotizador.csproj", "{FEEFA9D1-5C85-4090-AB67-527CF4A32859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billetes", "Billetes\Billetes.csproj", "{65BB0F26-FA4E-4094-98B6-08BEE5DA2714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEEFA9D1-5C85-4090-AB67-527CF4A32859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEFA9D1-5C85-4090-AB67-527CF4A32859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEFA9D1-5C85-4090-AB67-527CF4A32859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEFA9D1-5C85-4090-AB67-527CF4A32859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BB0F26-FA4E-4094-98B6-08BEE5DA2714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BB0F26-FA4E-4094-98B6-08BEE5DA2714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BB0F26-FA4E-4094-98B6-08BEE5DA2714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BB0F26-FA4E-4094-98B6-08BEE5DA2714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80F4407A-5362-4265-BFD9-0975711D7749}
+	EndGlobalSection
+EndGlobal

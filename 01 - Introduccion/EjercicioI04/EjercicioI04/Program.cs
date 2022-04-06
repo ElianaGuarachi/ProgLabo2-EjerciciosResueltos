@@ -13,7 +13,32 @@ namespace EjercicioI04
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            int numeros = int.MaxValue; 
+            int contador = 0;
+
+            for (int i = 1; i < numeros; i++) //itera los numeros de 1 a 10000
+            {
+                int suma = 0; //declaro un entero inicializado en 0 -> por cada i el contador vuelve a 0
+                
+                for (int k = 1; k < i; k++) 
+                {
+                    if (i % k == 0) // el resto de i/k debe ser 0 es decir es divisible
+                    {
+                        suma += k; //suma = suma + k -> se suman los numeros divisibles de i
+
+                    }
+                }
+                if (suma == i && i != 1) //si la suma de los numeros divisibles de i es igual a i y no es 1
+                {
+                    Console.WriteLine($"Numero perfecto: {suma}");
+                    contador++;
+                    if(contador == 4)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            Console.ReadKey();        }
     }
 }

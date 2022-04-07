@@ -25,10 +25,10 @@ namespace EjercicioI03
 
                 if(int.TryParse(stringNumero, out int numero))
                 {
-                    int divisores = 0;
                     for(int i = 2; i <= numero; i++)
                     {
-                        for(int d = 1; d<=i; d++)
+                        int divisores = 0;
+                        for (int d = 1; d<=i; d++)
                         {
                             if(i % d == 0)
                             {

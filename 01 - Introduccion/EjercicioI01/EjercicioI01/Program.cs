@@ -39,7 +39,9 @@ namespace EjercicioI01
                     control++;
                 }
             } while (control <= 5);
-            promedio = acumulado / 5;
+
+            promedio = (float)acumulado / 5;
+
             Console.WriteLine("El valor maximo es: {0}. Valor minimo: {1}. Promedio {2}", maximo, minimo, promedio);
         }
     }

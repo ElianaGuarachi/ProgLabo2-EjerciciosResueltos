@@ -14,3 +14,19 @@ C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI03\Ejercici
 C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\ref\EjercicioI03.dll
 C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.pdb
 C:\Users\Usuario\Desktop\Ejercicios Resueltos\Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\EjercicioI03.exe
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\EjercicioI03.deps.json
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\EjercicioI03.runtimeconfig.json
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\EjercicioI03.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\EjercicioI03.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\ref\EjercicioI03.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\bin\Debug\net5.0\EjercicioI03.pdb
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\ref\EjercicioI03.dll
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.pdb
+C:\Users\Usuario\Desktop\Ejercicios Resueltos\01 - Introduccion\EjercicioI03\EjercicioI03\obj\Debug\net5.0\EjercicioI03.genruntimeconfig.cache

@@ -34,8 +34,6 @@ namespace EjercicioI02
                 }
 
             } while (flag == true);
-            
-
         }
     }
 }

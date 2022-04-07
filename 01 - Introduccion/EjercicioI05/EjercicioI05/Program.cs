@@ -53,7 +53,6 @@ namespace EjercicioI05
                 sumaAntesCentro = 0;
 
             } while (numero > n);
-
         }
     }
 }

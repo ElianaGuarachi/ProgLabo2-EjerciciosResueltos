@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioI04-InventoArgentino", "EjercicioI04-InventoArgentino\EjercicioI04-InventoArgentino.csproj", "{56C70380-9329-4759-9D1B-F518188CEDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{B5E09180-C2DF-433C-BE7B-FFFA88D5AD8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C70380-9329-4759-9D1B-F518188CEDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C70380-9329-4759-9D1B-F518188CEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C70380-9329-4759-9D1B-F518188CEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C70380-9329-4759-9D1B-F518188CEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E09180-C2DF-433C-BE7B-FFFA88D5AD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E09180-C2DF-433C-BE7B-FFFA88D5AD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E09180-C2DF-433C-BE7B-FFFA88D5AD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E09180-C2DF-433C-BE7B-FFFA88D5AD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE35BB1-E9FE-4D60-96F5-F485D4772EC6}
+	EndGlobalSection
+EndGlobal

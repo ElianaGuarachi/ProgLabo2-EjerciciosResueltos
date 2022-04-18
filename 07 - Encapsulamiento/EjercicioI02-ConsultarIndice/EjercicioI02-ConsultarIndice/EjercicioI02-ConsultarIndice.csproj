@@ -6,4 +6,8 @@
     <RootNamespace>EjercicioI02_ConsultarIndice</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca\Biblioteca.csproj" />
+  </ItemGroup>
+
 </Project>

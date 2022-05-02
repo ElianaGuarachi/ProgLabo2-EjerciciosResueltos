@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central", "Central\Central.csproj", "{782B6EB0-A8BD-44CE-8FA1-2330B6A7A87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5B5E79E4-96EA-4B3C-BD08-9CB1A000687C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario", "Formulario\Formulario.csproj", "{657E17BE-899D-4AF3-8BD8-DE5D16420362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{782B6EB0-A8BD-44CE-8FA1-2330B6A7A87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782B6EB0-A8BD-44CE-8FA1-2330B6A7A87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782B6EB0-A8BD-44CE-8FA1-2330B6A7A87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782B6EB0-A8BD-44CE-8FA1-2330B6A7A87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5E79E4-96EA-4B3C-BD08-9CB1A000687C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5E79E4-96EA-4B3C-BD08-9CB1A000687C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5E79E4-96EA-4B3C-BD08-9CB1A000687C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5E79E4-96EA-4B3C-BD08-9CB1A000687C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657E17BE-899D-4AF3-8BD8-DE5D16420362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657E17BE-899D-4AF3-8BD8-DE5D16420362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657E17BE-899D-4AF3-8BD8-DE5D16420362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657E17BE-899D-4AF3-8BD8-DE5D16420362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E768638-38B3-4C70-8FA9-91B3E1C4532C}
+	EndGlobalSection
+EndGlobal

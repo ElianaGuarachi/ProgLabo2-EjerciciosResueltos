@@ -69,11 +69,13 @@ namespace Central
 
         public static bool operator == (Llamada l1, Llamada l2)
         {
-            if (l1 is not null && l2 is not null)
+            bool verifica = false;
+            if (l1 is not null && l2 is not null
+               && l1.Equals(l2) && l1.NroDestino == l2.NroDestino && l1.NroOrigen == l2.NroOrigen)
             {
-                return l1.Equals(l2);
+                verifica = true;
             }
-            return false;
+            return verifica;
         }
 
         public static bool operator !=(Llamada l1, Llamada l2)

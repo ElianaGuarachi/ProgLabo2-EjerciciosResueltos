@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioI01-LanzarAtrapar", "EjercicioI01-LanzarAtrapar\EjercicioI01-LanzarAtrapar.csproj", "{D57184F8-72BA-48DC-8F61-49A160BBEDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{3FC7BC58-0E3C-4BFB-A5A5-F6EA1747094B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D57184F8-72BA-48DC-8F61-49A160BBEDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57184F8-72BA-48DC-8F61-49A160BBEDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57184F8-72BA-48DC-8F61-49A160BBEDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57184F8-72BA-48DC-8F61-49A160BBEDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC7BC58-0E3C-4BFB-A5A5-F6EA1747094B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC7BC58-0E3C-4BFB-A5A5-F6EA1747094B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC7BC58-0E3C-4BFB-A5A5-F6EA1747094B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC7BC58-0E3C-4BFB-A5A5-F6EA1747094B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5214E6E4-CD12-488B-A748-572C759AD0C6}
+	EndGlobalSection
+EndGlobal

@@ -25,8 +25,8 @@ namespace Test
 
             Console.WriteLine(c.ToString());
 
-            //c.OrdenarLlamadas();
-            //Console.WriteLine(c.Mostrar());
+            c.OrdenarLlamadas();
+            Console.WriteLine(c.ToString());
 
             Console.ReadKey();
         }

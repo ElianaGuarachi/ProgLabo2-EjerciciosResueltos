@@ -8,9 +8,11 @@ namespace EjercicioI01_Sobreescribiendo
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio Sobre-Sobrescrito";
-            Sobrescrito objetoSobrescrito = new Sobrescrito();
 
-            Console.WriteLine(objetoSobrescrito.ToString());
+            SobreSobrescrito objetoSobrescrito = new SobreSobrescrito();
+
+            Console.WriteLine(objetoSobrescrito.MiPropiedad);
+            Console.WriteLine(objetoSobrescrito.MiMetodo());
 
             string objeto = "¡Este es mi método ToString sobrescrito!";
 

@@ -47,6 +47,25 @@ namespace Formulario
 
         private void EliminarObjeto()
         {
+            /*
+             * Al accionarlo deberá borrar el objeto seleccionado en la lista. Si no hay nada seleccionado, 
+             * no hacer nada y mostrar un cartel informando que se debe seleccionar un elemento de la lista.
+             * */
+
+            string seleccion = lstObjetos.SelectedItem as string;
+            if (seleccion is not null)
+            {
+                listaSupermercado.Remove(seleccion);
+            }
+            else
+            {
+                MessageBox.Show("Debe seleccionar un elemento de la lista", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
+
+        private void ModificarObjeto()
+        {
 
         }
 
@@ -58,6 +77,11 @@ namespace Formulario
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             EliminarObjeto();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            ModificarObjeto();
         }
     }
 }

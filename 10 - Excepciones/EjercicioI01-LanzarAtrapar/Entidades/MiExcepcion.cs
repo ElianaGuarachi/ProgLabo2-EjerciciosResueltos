@@ -17,5 +17,11 @@ namespace Entidades
         {
 
         }
+
+        public MiExcepcion(string mensaje, Exception ex):base(mensaje, ex)
+        {
+
+        }
+
     }
 }

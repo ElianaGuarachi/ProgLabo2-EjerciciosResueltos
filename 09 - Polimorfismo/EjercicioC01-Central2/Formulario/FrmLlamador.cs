@@ -18,6 +18,13 @@ namespace Formulario
             InitializeComponent();
         }
 
+        //public Centralita PropiedadCentralita
+        //{
+        //    get
+        //    {
+        //        return ;
+        //    }
+        //}
 
 
 

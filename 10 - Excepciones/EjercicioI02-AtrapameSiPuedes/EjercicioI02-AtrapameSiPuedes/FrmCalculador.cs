@@ -20,14 +20,22 @@ namespace EjercicioI02_AtrapameSiPuedes
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            string litros = this.txtLitros.Text;
+            string kilometros = this.txtKilometros.Text;
             try
             {
-                if (this.txtLitros.Text == "" || this.txtKilometros.Text == "") //lanzamos una excepcion
+                if (string.IsNullOrEmpty(litros) ||  string.IsNullOrEmpty(kilometros)) 
                 {
-                    throw new ParametrosVaciosException("Alguno de los campos esta vacio");
+                    throw new ParametrosVaciosException("Alguno de los campos esta vacio"); //lanzamos (creamos) una excepcion
                 }
 
-                this.rtbCalculador.Text = $"km / hs {Calculador.Calcular(int.Parse(this.txtKilometros.Text), int.Parse(this.txtLitros.Text))}";
+                int resultado = Calculador.Calcular(int.Parse(kilometros), int.Parse(litros));
+
+                if (resultado == -1)
+                {
+                    throw new Exception("Los valores no pueden ser negativos");
+                }
+                this.rtbCalculador.Text = $"km / hs {resultado}";
             }
             catch (ParametrosVaciosException ex) //captura la excecion
             {

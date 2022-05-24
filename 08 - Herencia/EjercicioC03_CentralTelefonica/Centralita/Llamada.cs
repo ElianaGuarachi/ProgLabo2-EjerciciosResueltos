@@ -53,11 +53,10 @@ namespace Centralita
         {
             if (llamada1 is not null && llamada2 is not null)
             {
-                return llamada1.Duracion.CompareTo(llamada2.Duracion);
-                //if (llamada1.duracion > llamada2.duracion)
-                //{
-                //    return 1;
-                //}
+                if (llamada1.duracion > llamada2.duracion)
+                {
+                    return 1;
+                }
             }
             return -1;
         }

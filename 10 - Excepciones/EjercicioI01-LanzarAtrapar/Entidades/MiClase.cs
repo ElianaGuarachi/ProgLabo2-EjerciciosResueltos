@@ -8,16 +8,35 @@ namespace Entidades
 {
     public class MiClase
     {
+        int numero;
+
         public MiClase()
         {
-
+            try
+            {
+                MiClase.MetodoEstatico();
+            }
+            catch (DivideByZeroException ex)
+            {
+                throw;                
+            }
         }
 
-        
-
-        static void MetodoEstatico()
+        public MiClase(int numero)
         {
-            throw new DivideByZeroException();
+            try
+            {
+                MiClase miClase = new MiClase();
+            }
+            catch (Exception ex)
+            {
+                //
+            }
+        }
+
+        public static void MetodoEstatico()
+        {
+            throw new DivideByZeroException("Excepcion en el metodo estatico");
         }
     }
 }

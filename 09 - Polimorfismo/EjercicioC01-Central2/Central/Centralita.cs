@@ -91,8 +91,7 @@ namespace Central
 
         public void OrdenarLlamadas()
         {
-            //Llamada.OrdenarPorDuracion();
-            this.Llamadas.Sort();
+            this.listaDeLlamadas.Sort((p,q) => Llamada.OrdenarPorDuracion(p,q));
         }
 
         public override string ToString()

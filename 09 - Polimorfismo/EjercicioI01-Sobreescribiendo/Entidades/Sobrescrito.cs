@@ -2,8 +2,18 @@
 
 namespace Entidades
 {
-    public class Sobrescrito
+    public abstract class Sobrescrito
     {
+        protected string miAtributo;
+
+        public Sobrescrito()
+        {
+            this.miAtributo = "Pobrar abstractos";
+        }
+
+        public abstract string MiPropiedad { get; }
+
+        public abstract string MiMetodo();
 
         public override String ToString()
         {

@@ -13,11 +13,12 @@ namespace Formulario
 {
     public partial class FrmMenu : Form
     {
-        Centralita central = new Centralita("Nueva Central");
+        public Centralita central;
 
         public FrmMenu()
         {
             InitializeComponent();
+            central = new Centralita("Nueva Central");
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -40,25 +41,25 @@ namespace Formulario
 
         private void btnGenerarLlamada_Click(object sender, EventArgs e)
         {
-            FrmLlamador nuevaForm = new FrmLlamador(central);
+            FrmLlamador nuevaForm = new FrmLlamador(this.central);
             nuevaForm.ShowDialog();
         }
 
         private void btnFacTotal_Click(object sender, EventArgs e)
         {
-            FrmMostrar nuevaForm = new FrmMostrar(central);
+            FrmMostrar nuevaForm = new FrmMostrar(this.central);
             nuevaForm.ShowDialog();
         }
 
         private void btnFacLocal_Click(object sender, EventArgs e)
         {
-            FrmMostrar nuevaForm = new FrmMostrar(central);
+            FrmMostrar nuevaForm = new FrmMostrar(this.central);
             nuevaForm.ShowDialog();
         }
 
         private void btnFacProvincial_Click(object sender, EventArgs e)
         {
-            FrmMostrar nuevaForm = new FrmMostrar(central);
+            FrmMostrar nuevaForm = new FrmMostrar(this.central);
             nuevaForm.ShowDialog();
         }
     }

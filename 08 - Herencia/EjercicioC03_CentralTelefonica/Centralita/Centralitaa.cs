@@ -92,7 +92,7 @@ namespace Centralita
 
         public void OrdenarLlamadas()
         {
-            listaDeLlamadas.Sort();
+            listaDeLlamadas.Sort((p, q) => Llamada.OrdenarPorDuracion(p, q));
         }
 
 

@@ -13,34 +13,47 @@ namespace Biblioteca
 
         public GestionImpuestos()
         {
-            impuestosAduana = new List<IAduana>();
-            impuestosAfip = new List<IAfip>();
+            this.impuestosAduana = new List<IAduana>();
+            this.impuestosAfip = new List<IAfip>();
         }
 
         public decimal CalcularTotalImpuestosAduana()
         {
-            return 0;
+            decimal totalImpuesto = 0;
+
+            foreach (IAduana impuesto in impuestosAduana)
+            {
+                totalImpuesto += impuesto.Impuestos;
+            }
+            return totalImpuesto;
         }
 
         public decimal CalcularTotalImpuestosAfip()
         {
-            return 0;
+            decimal totalImpuesto = 0;
+
+            foreach (IAfip impuesto in impuestosAfip)
+            {
+                totalImpuesto += impuesto.Impuestos;
+            }
+            return totalImpuesto;
         }
 
         public void RegistrarImpuestos(IEnumerable<Paquete>paquetes)
         {
-
+            foreach (Paquete item in paquetes)
+            {
+                RegistrarImpuestos(item);
+            }
         }
 
         public void RegistrarImpuestos(Paquete paquete)
         {
-            foreach (var item in impuestosAduana)
+            if (paquete is not null)
             {
-                if (item is IAduana && paquete is IAduana)
-                {
-                    impuestosAduana.Add(paquete);
-                }
-                else if(paquete is IAfip)
+                impuestosAduana.Add(paquete);
+
+                if (paquete is IAfip)
                 {
                     impuestosAfip.Add((IAfip)paquete);
                 }

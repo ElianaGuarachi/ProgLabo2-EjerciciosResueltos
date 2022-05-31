@@ -8,10 +8,10 @@ namespace Biblioteca
 {
     public interface IAduana
     {
-        public decimal Impuestos { get; }
+        decimal Impuestos { get; }
        
 
-        public decimal AplicarImpuestos();
+        decimal AplicarImpuestos();
 
     }
 }

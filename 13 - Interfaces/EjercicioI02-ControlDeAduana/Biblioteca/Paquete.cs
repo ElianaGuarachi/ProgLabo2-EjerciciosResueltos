@@ -35,7 +35,15 @@ namespace Biblioteca
             sb.AppendLine($"Destino: {this.destino}");
             sb.AppendLine($"Origen: {this.origen}");
             sb.AppendLine($"Peso kg: {this.pesoKg}");
-            sb.AppendLine($"Tiene prioridad: {this.TienePrioridad}");
+            if (TienePrioridad == true)
+            {
+                sb.AppendLine($"Tiene prioridad");
+            }
+            else
+            {
+                sb.AppendLine($"No tiene prioridad");
+            }
+            
             return sb.ToString();
         }
 

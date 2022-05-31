@@ -29,12 +29,12 @@ namespace Biblioteca
 
         public static bool operator ==(Equipo e1, Equipo e2)
         {
-            return e1.nombre == e2.nombre && e1.fechaCreacion == e2.fechaCreacion;
+            return e1.Nombre == e2.Nombre && e1.Fecha == e2.Fecha;
         }
 
         public static bool operator !=(Equipo e1, Equipo e2)
         {
-            return !(e1.nombre == e2.nombre && e1.fechaCreacion == e2.fechaCreacion);
+            return !(e1 == e2);
         }
 
         public virtual string Ficha()

@@ -12,7 +12,7 @@ namespace Formularios
 {
     public partial class FrmPrincipal : Form
     {
-        //declaro variables formularios
+        //atributos
         private FrmMostrar frmMostrar;
         private FrmTestDelegados frmTestDelegados;
 

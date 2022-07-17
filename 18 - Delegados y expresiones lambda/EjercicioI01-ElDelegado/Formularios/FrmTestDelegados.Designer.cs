@@ -35,6 +35,7 @@ namespace Formularios
             // 
             // btnActualizar
             // 
+            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnActualizar.Location = new System.Drawing.Point(12, 53);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(406, 43);
@@ -45,9 +46,10 @@ namespace Formularios
             // 
             // txtNombre
             // 
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtNombre.Location = new System.Drawing.Point(12, 12);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(406, 23);
+            this.txtNombre.Size = new System.Drawing.Size(406, 27);
             this.txtNombre.TabIndex = 1;
             // 
             // FrmTestDelegados
@@ -57,8 +59,11 @@ namespace Formularios
             this.ClientSize = new System.Drawing.Size(436, 114);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnActualizar);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmTestDelegados";
-            this.Text = "FrmTestDelegados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Test Delegados";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IjWsIcXf8n7tr4hlW+NvyKC8es04xcvdi/5OQ+rAxnRuyQ8Xft6puThfspCAVti3EPdG4OGoWJitWzAazzxloA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\19 - Hilos\\I02-SimuladorDeAtencion\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

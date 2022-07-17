@@ -15,7 +15,7 @@ namespace Formularios
         //Firma del delegado
         public delegate void ActualizarNombreDelegate(string nombre);
 
-        //declaro una variable tipo de delegado
+        //declaro una variable tipo delegado
         private ActualizarNombreDelegate actualizarNombreDelegate;
 
         //Delegado como parametro 
@@ -28,7 +28,21 @@ namespace Formularios
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            actualizarNombreDelegate.Invoke(txtNombre.Text);
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtNombre.Text))
+                {
+                    throw new ArgumentNullException();
+                }
+                else
+                {
+                    actualizarNombreDelegate.Invoke(txtNombre.Text);
+                }
+            }
+            catch (ArgumentNullException)
+            {
+                MessageBox.Show("Debe ingresar un nombre");
+            }
         }
     }
 }

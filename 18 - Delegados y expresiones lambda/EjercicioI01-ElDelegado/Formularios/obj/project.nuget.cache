@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VAfoVrQhzRymri38mRcRekm1NtQyzeBMZvjuO6VCKaT68g76diuClLhs4eWLZ+PNYdY1Rx+Sp7PFVHZGCURZPQ==",
+  "dgSpecHash": "a3dMFXMYXdt5rp475Qmwgdk+D1dvI/sQlOZPyvDbaO0Mjh5scr8KQHkGQqHjCAFgD4hH1bDrTR+mJbmJi5aoQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados\\EjercicioI01-ElDelegado\\Formularios\\Formularios.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados y expresiones lambda\\EjercicioI01-ElDelegado\\Formularios\\Formularios.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

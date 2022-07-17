@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados\\EjercicioI01-ElDelegado\\Formularios\\Formularios.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados y expresiones lambda\\EjercicioI01-ElDelegado\\Formularios\\Formularios.csproj",
       "projectName": "Formularios",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados\\EjercicioI01-ElDelegado\\Formularios\\Formularios.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados y expresiones lambda\\EjercicioI01-ElDelegado\\Formularios\\Formularios.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados\\EjercicioI01-ElDelegado\\Formularios\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados y expresiones lambda\\EjercicioI01-ElDelegado\\Formularios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",

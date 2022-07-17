@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1XF2PP1MZpQHwqtACHm52pn/LYtz3GZb2W17D9ZngXCyTpfZdHJHT6sB9kmjQdC+kLsQ+5BVKyRfynNpHptdEg==",
+  "dgSpecHash": "uo/3r5PyQ1UndbHDcMbjdkOQB5Q0VG6zvMFm6M4TvdVa+rGmXpA1lbn0+BfvEbi4g9ftESn7XjOVVLUI5VMxLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados\\EjercicioI01-ElDelegado\\Consola\\Consola.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Ejercicios Resueltos\\18 - Delegados y expresiones lambda\\EjercicioI01-ElDelegado\\Consola\\Consola.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

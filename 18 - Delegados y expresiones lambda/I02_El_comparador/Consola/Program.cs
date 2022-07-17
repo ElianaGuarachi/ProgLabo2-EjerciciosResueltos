@@ -27,15 +27,36 @@ namespace Consola
 
             Console.WriteLine($"{NewLine}1era Comparación - Texto con más caracteres:");
             // Punto 2
+            Comparar(primerTexto, segundoTexto, (p,q) => p.Length - q.Length);
 
             Console.WriteLine($"{NewLine}2da Comparación - Texto con más palabras:");
             // Punto 3
+            Comparar(primerTexto, segundoTexto, (p,q) => p.Split(' ',StringSplitOptions.RemoveEmptyEntries).Length - q.Split(' ', StringSplitOptions.RemoveEmptyEntries).Length);
             
             Console.WriteLine($"{NewLine}3era Comparación - Texto con más vocales:");
             // Punto 4
+            Comparar(primerTexto, segundoTexto, (p, q) => ContarVocales(p) - ContarVocales(q));
 
             Console.WriteLine($"{NewLine}4ta Comparación - Texto con más signos de puntuación:");
             // Punto 5
+            Comparar(primerTexto, segundoTexto, (p, q) => ContarSignosPuntuacion(p) - ContarSignosPuntuacion(q));
+        }
+
+        public static void Comparar(string texto1, string texto2, DelegadoComparacion delegadoComparacion)
+        {
+            int retorno = delegadoComparacion(texto1, texto2);
+            if (retorno > 0)
+            {
+                Console.WriteLine("El primer texto es mayor al segundo");
+            }
+            else if (retorno < 0)
+            {
+                Console.WriteLine("El segundo texto es mayor al primero");
+            }
+            else if(retorno == 0)
+            {
+                Console.WriteLine("Ambos textos tienen la misma cantidad");
+            }
         }
 
         public static int ContarVocales(string texto)

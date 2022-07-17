@@ -36,10 +36,10 @@ namespace Formularios
             // 
             this.lblNombre.AccessibleName = "";
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNombre.Location = new System.Drawing.Point(34, 24);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(133, 37);
+            this.lblNombre.Size = new System.Drawing.Size(182, 50);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "NOMBRE";
             // 
@@ -47,10 +47,13 @@ namespace Formularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 85);
+            this.ClientSize = new System.Drawing.Size(344, 94);
             this.Controls.Add(this.lblNombre);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmMostrar";
-            this.Text = "FrmMostrar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Mostrar";
             this.ResumeLayout(false);
             this.PerformLayout();
 
